@@ -92,9 +92,9 @@ This project is a simple scheduling application that manages events within a 24-
 ## Screenshots
 
 <!-- Include screenshots of the application here -->
-![Add Event UI](Screenshot79)
-![Event List UI](Screenshot80)
-![Error Handling](Screenshot82)
+![Add Event UI](Screenshot79.png)
+![Event List UI](Screenshot80.png)
+![Error Handling](Screenshot82.png)
 
 ## Contributing
 
