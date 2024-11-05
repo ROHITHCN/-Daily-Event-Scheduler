@@ -1,0 +1,10 @@
+<!-- frontend/src/app/add-event/add-event.component.html -->
+<div>
+    <h2>Add Event</h2>
+    <label>Start Time:</label>
+    <input type="number" [(ngModel)]="start_time" min="0" max="23" />
+    <label>End Time:</label>
+    <input type="number" [(ngModel)]="end_time" min="0" max="23" />
+    <button (click)="addEvent()">Add Event</button>
+    <p>{{ message }}</p>
+</div>

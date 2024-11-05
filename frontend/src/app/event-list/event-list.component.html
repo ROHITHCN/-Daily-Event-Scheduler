@@ -1,0 +1,9 @@
+<!-- frontend/src/app/event-list/event-list.component.html -->
+<div>
+    <h2>Scheduled Events</h2>
+    <ul>
+        <li *ngFor="let event of events">
+            {{ event.start_time }} - {{ event.end_time }}
+        </li>
+    </ul>
+</div>
